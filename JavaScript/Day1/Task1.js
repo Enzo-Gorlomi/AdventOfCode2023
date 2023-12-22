@@ -13,7 +13,7 @@ function getSum(string){
     return parseInt(num)
 }
 
-fs.readFile('JavaScript\\Day1.1\\input.txt', (err, data) => {
+fs.readFile('Day1\\input.txt', (err, data) => {
     if (err) throw err;
     let text = data.toString();
     let lines = text.split(/\n/);
